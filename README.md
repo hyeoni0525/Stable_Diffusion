@@ -69,3 +69,27 @@
 본 연구에서는 실제 이미지와 Stable Diffusion으로 생성된 인공 이미지의 비율을 조절하여 총 5개의 데이터셋 구성
 
 ResNet18 모델로 학습한 뒤 동일한 테스트셋을 사용하여 성능을 비교 진행
+
+<img src="https://github.com/user-attachments/assets/2c6f26b5-5b0a-49fe-b3c1-68b2b901bb9e"  width="400" height="200"/>
+<br>
+<img src="https://github.com/user-attachments/assets/18a4f5fa-1dc7-49dc-bd7f-7de566608e47"  width="300" height="300"/>
+
+- 원본 데이터셋에서 가장 높은 정확도를 기록
+
+- 6:4 구성의 데이터셋에서는 실제 데이터에 가까운 성능을 유지하면서도 인공 이미지 데이터를 효과적으로 활용
+
+- 7:3, 8:2 구성의 데이터셋처럼 인공 이미지 데이터의 비율이 높아질수록 정확도 감소
+<br>
+
+:white_check_mark: **인공 이미지 비율이 늘어날수록 정확도는 감소했으나, 성능은 일정 수준 유지**
+
+:white_check_mark: **인공 이미지의 비율이 과도해질 경우, 모델의 일반화 성능 저하 가능성 존재**
+
+:white_check_mark: **실제 이미지와 인공 이미지 간의 균형 있는 조합이 중요**
+
+-------
+# Conclusion
+Stable Diffusion 기반 생성 이미지는 실제 이미지 데이터를 보완할 수 있는 가능성을 확인
+
+추후 생성형 AI가 더 발전하여 이미지 데이터의 특이점을 돌파하게 된다면 원하는 데이터셋을 수집하는데 큰 도움이 될 것으로 기대
+

@@ -1,7 +1,8 @@
 # Stable_Diffusion
 <h3>Stable Diffusion 기반 이미지 생성에 따른 학습 데이터 효율화 연구</h3>
 
-생성형 AI인 Stable Diffusion을 활용해 인공 데이터를 생성하고, 이를 실제 데이터와 조합하여 학습 성능을 실험
+<p align="center"><img src="https://github.com/user-attachments/assets/61a1d43e-3948-412c-8d08-579a84bb1367"  width="400" height="400"/></p>
+
 
 # Contents
 1. Overview
@@ -12,7 +13,7 @@
 
 4. Experiment
 
-5. Result
+5. Results
 
 6. Conclusion
 
@@ -53,3 +54,18 @@
 데이터 비율 구성:
 실제 100%
 인공:실제 = 5:5, 6:4, 7:3, 8:2
+
+--------
+# Experiment
+- 프롬포트 예시:
+
+```
+“A photorealistic, highly detailed 8K photograph of a turtle in various settings and poses in the sea, shot with a Nikon Z7 II, 70-200mm lens, natural lighting, sharp focus, ultra-high-definition”
+```
+- 사전 학습 된 ResNet18을 이용하여 Image Classification을 전이학습 진행
+
+---------
+# Results
+본 연구에서는 실제 이미지와 Stable Diffusion으로 생성된 인공 이미지의 비율을 조절하여 총 5개의 데이터셋 구성
+
+ResNet18 모델로 학습한 뒤 동일한 테스트셋을 사용하여 성능을 비교 진행

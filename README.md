@@ -23,7 +23,6 @@
 <img src="https://github.com/user-attachments/assets/76d52e9f-b6cb-4a77-8d12-b472d9343ec7"  width="300" height="300"/>
 <img src="https://github.com/user-attachments/assets/b7c57730-f58a-400a-a3dc-248f7af8535e"  width="300" height="300"/>
 
-
 - 실제 이미지 데이터셋 수집의 한계를 보완하기 위해, Stable Diffusion으로 생성한 인공 이미지를 학습 데이터에 적용
 - 인공 이미지의 비율을 조정하며 ResNet18 기반 모델 성능 비교
 
@@ -92,4 +91,18 @@ ResNet18 모델로 학습한 뒤 동일한 테스트셋을 사용하여 성능�
 Stable Diffusion 기반 생성 이미지는 실제 이미지 데이터를 보완할 수 있는 가능성을 확인
 
 추후 생성형 AI가 더 발전하여 이미지 데이터의 특이점을 돌파하게 된다면 원하는 데이터셋을 수집하는데 큰 도움이 될 것으로 기대
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/2648772b-0c3e-474f-94e3-4dd9b464f96d"  width="300" height="300"/>
+<img src="https://github.com/user-attachments/assets/c068a2a9-2f02-43c7-9e60-1fc5510aee82"  width="300" height="300"/>
+<br>
+<img src="https://github.com/user-attachments/assets/05042d54-c44e-496e-8ae5-071dfd059eaa"  width="300" height="300"/>
+<img src="https://github.com/user-attachments/assets/f59dd99a-0c30-4c5c-98ff-84d178315bce"  width="300" height="300"/>
+</p>
+
+-------
+# Reference
+본 연구는 2024년 과학기술정보통신부 및 정보통신기획평가원의 SW중심대학사업의 지원을 받아 수행되었습니다. (2024-0-00047)
+
+[2024 학술회 논문 - Stable Diffusion 기반 이미지 생성에 따른 학습 데이터 효율화에 대한 연구.pdf](https://github.com/user-attachments/files/20274147/2024.-.Stable.Diffusion.pdf)
 
